@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+.header {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    height: 500px;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+.color-highlight {
+    color: #DE3163 ;
+    font-weight: 600;
+}
+
+.btn-highlight {
+    color: #fff;
+    background-color: #DE3163;
+    font-size: 12px;
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    border-color: #DE3163;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+.half-width img {
+    width: 80%;
+    height: 400px;
+}
+
+.half-width p {
+    font-size: 14px;
+    color: #777;
+    font-family: monospace;
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* showcase */
+.showcase {
+    height: 500px;
+    margin-top: 100px;
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.showcase h2 {
+    margin-top: 100px;
+    font-size: 35px;
+}
+
+/* latest work */
+.work {
+    margin-top: 100px;
+    height: 500px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.latest-work {
+    display: flex;
+    justify-content: space-around;
+}
+
+.latest-work img {
+    height: 300px;
+    width: 80%;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+/* clients comment */
+.client {
+    margin-top: 100px;
+    height: 500px;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.client-comment {
+    text-align: center;
+}
+
+.client-comment h2 {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.founder {
+    color: #777;
+    font-size: 18px;
+}
+
+.client-comment p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.client-mail {
+    text-align: center;
+    width: 40%;
+    background-color: #DE3163;
+    border: 1px solid #DE3163;
+    height: 100px;
+    padding: 20px;
+    margin: 80px auto;
+    border-radius: 5px;
+}
+
+.client-mail p {
+    color: #fff;
+    font-family: monospace;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.mail {
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer p {
+    font-size: 12px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* media for responsive design */
+@media(max-width: 700px) {
+    h1 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 12px;
+        text-align: center;
+        margin-left: 5px;
+    }
+    .color-highlight {
+        font-size: 20px;
+    }
+    .half-width {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-left: 3px;
+    }
+    .half-width p {
+        font-size: 8px;
+    }
+    .half-width img {
+        height: 150px;
+        width: 80%;
+    }
+    .btn-highlight {
+        font-size: 6px;
+        padding: 2px;
+        border: 0.6px solid #DE3163;
+        border-radius: 1px;
+    }
+    .showcase {
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 3px;
+        box-sizing: border-box;
+    }
+    
+    .showcase h2 {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+    .work {
+        margin-top: 20px;
+        width: 80%;
+    }
+    .latest-work {
+        flex-direction: column;
+    }
+    .latest-work img {
+        margin-top: 10px;
+        height: 80px;
+        margin-left: 10px;
+    }
+    .client {
+        margin-top: 10px;
+    }
+    .client-comment h2 {
+        font-size: 16px;
+    }
+    .founder {
+        font-size: 12px;
+    }
+    .client-comment p {
+        font-size: 8px;
+    }
+    .client-mail {
+        height: 50px;
+        margin-top: 30px;
+        margin-left: 20%px;
+        width: 60%;
+
+    }
+    .client-mail p {
+        font-size: 6px;
+        text-align: left;
+        margin-left: -15px;
+    }
+    .mail {
+        font-size: 6px;
+        text-align: left;
+        margin-left: -5px;
+    }
+    .footer p {
+        font-size: 6px;
+    }
+
+}
+
